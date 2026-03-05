@@ -12,19 +12,22 @@ function buildBody(body: Record<string, unknown>): Record<string, unknown> {
     key: API_KEY,
     calendar: body.calendar ?? 'gregorian',
     state: body.state ?? 4, // Al Sharqiah
-    ...(body.start_date && { start_date: body.start_date }),
-    ...(body.end_date && { end_date: body.end_date }),
-    ...(body.city && { city: body.city }),
-    ...(body.category && { category: body.category }),
-    ...(body.dtype && { dtype: body.dtype }),
-    ...(body.min_meter_price != null && { min_meter_price: Number(body.min_meter_price) }),
-    ...(body.max_meter_price != null && { max_meter_price: Number(body.max_meter_price) }),
-    ...(body.min_deal_price != null && { min_deal_price: Number(body.min_deal_price) }),
-    ...(body.max_deal_price != null && { max_deal_price: Number(body.max_deal_price) }),
-    ...(body.min_area != null && { min_area: Number(body.min_area) }),
-    ...(body.max_area != null && { max_area: Number(body.max_area) }),
-    ...(body.hai && { hai: body.hai, hai_exact_match: body.hai_exact_match ?? 0 }),
   };
+  if (body.start_date) payload.start_date = body.start_date;
+  if (body.end_date) payload.end_date = body.end_date;
+  if (body.city) payload.city = body.city;
+  if (body.category) payload.category = body.category;
+  if (body.dtype) payload.dtype = body.dtype;
+  if (body.min_meter_price != null) payload.min_meter_price = Number(body.min_meter_price);
+  if (body.max_meter_price != null) payload.max_meter_price = Number(body.max_meter_price);
+  if (body.min_deal_price != null) payload.min_deal_price = Number(body.min_deal_price);
+  if (body.max_deal_price != null) payload.max_deal_price = Number(body.max_deal_price);
+  if (body.min_area != null) payload.min_area = Number(body.min_area);
+  if (body.max_area != null) payload.max_area = Number(body.max_area);
+  if (body.hai) {
+    payload.hai = body.hai;
+    payload.hai_exact_match = body.hai_exact_match ?? 0;
+  }
   return payload;
 }
 
