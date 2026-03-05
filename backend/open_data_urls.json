@@ -1,0 +1,6 @@
+[
+  {"name": "balady_open_data", "url": "https://apiservices.balady.gov.sa/v1/momrah-services/open-data", "notes": "أخبار/محتوى بلدي — يُجلب عبر scripts/fetch_balady_open_data.py"},
+  {"name": "gastat_datatables", "url": "https://www.stats.gov.sa/datatables", "notes": "جداول GASTAT — تصدير يدوي أو ربط لاحق عند توفر روابط تنزيل ثابتة"},
+  {"name": "rega_indicators", "url": "https://rega.gov.sa/rega-services/platforms/real-estate-indicators/", "notes": "منصة المؤشرات العقارية — استعلام ويب؛ بيانات الإكسل تُدخل عبر ingest_real_estate_excels.py"},
+  {"name": "sakani_reports", "url": "https://sakani.sa/reports-and-data", "notes": "سكني تقارير ومؤشرات إيجارية"}
+]

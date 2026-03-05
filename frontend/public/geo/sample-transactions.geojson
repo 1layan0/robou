@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type":"Feature","geometry":{"type":"Point","coordinates":[50.106,26.431]},"properties":{"price":1750}},
+    { "type":"Feature","geometry":{"type":"Point","coordinates":[50.12,26.435]},"properties":{"price":2100}},
+    { "type":"Feature","geometry":{"type":"Point","coordinates":[50.215,26.294]},"properties":{"price":1850}},
+    { "type":"Feature","geometry":{"type":"Point","coordinates":[50.148,26.308]},"properties":{"price":2200}},
+    { "type":"Feature","geometry":{"type":"Point","coordinates":[50.205,26.302]},"properties":{"price":1900}}
+  ]
+}
+

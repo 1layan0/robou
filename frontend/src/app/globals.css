@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1.25rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: inherit;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+body.dark {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+.card {
+  @apply rounded-2xl bg-white dark:bg-ink-900/80 border border-slate-200/60 dark:border-slate-800/60 shadow-xl shadow-slate-900/5 dark:shadow-slate-900/20 backdrop-blur-sm;
+}
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-raboo3-600 text-white hover:bg-raboo3-700 dark:bg-raboo3-500 dark:hover:bg-raboo3-600;
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  animation: shimmer 1.8s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.hero-gradient {
+  background: radial-gradient(1200px 600px at 80% -10%, rgba(184, 134, 11, 0.18), transparent 55%),
+    radial-gradient(1000px 600px at 10% -20%, rgba(22, 163, 74, 0.18), transparent 50%),
+    linear-gradient(135deg, #f8fafc 0%, #ffffff 60%);
+}
+
+.hero-blobs > div {
+  filter: blur(40px);
+  opacity: 0.6;
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(20px, -20px) scale(1.1); }
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem; /* max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+button,
+[role='button'],
+input,
+select,
+textarea {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-raboo3-400 focus-visible:ring-offset-white dark:focus-visible:ring-offset-ink-900;
+}
+
+input,
+select,
+textarea {
+  @apply rounded-xl border border-slate-200 bg-white text-ink-900 shadow-sm placeholder:text-slate-400 focus:border-raboo3-400 focus:ring-raboo3-400 dark:border-white/10 dark:bg-ink-900/50 dark:text-white dark:placeholder:text-slate-400;
+}
+
+button {
+  @apply transition-colors;
+}
+
+/* شريط الشعارات — سير كهربائي: نسختان ملتصقتان، -50% = حلقة متصلة بدون فراغ */
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  direction: ltr; /* ضروري في الصفحة العربية: الشريط يبقى [مسار1][مسار2] والشعارات تدخل من اليمين */
+}
+.marquee-inner {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  flex-shrink: 0;
+  animation: marquee-scroll 25s linear infinite;
+  will-change: transform;
+}
+.marquee:hover .marquee-inner {
+  animation-play-state: paused;
+}
+
+/* مسار + فجوة ثم مسار + فجوة = نفس المسافة بين كل الشعارات، و -50% = حلقة متصلة */
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-shrink: 0;
+}
+.marquee-gap {
+  width: 1.5rem;
+  flex-shrink: 0;
+}
+
+@keyframes marquee-scroll {
+  0%   { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.map-wrap{ position:relative; width:100%; min-height:420px; height:clamp(420px, 60vh, 640px); border-radius:1rem; overflow:hidden }
+.map-error{ @apply card text-red-700 bg-red-50 border-red-200 p-6 text-center }

@@ -1,0 +1,22 @@
+# MySQL for raboo3-ml — تشغيل: docker compose up -d
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: raboo3-ml-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-raboo3_root}
+      # يجب أن تطابق config/settings.py و db/schema.sql
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-raboo3}
+    ports:
+      - "${DB_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-raboo3_root}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:

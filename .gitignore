@@ -1,0 +1,17 @@
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*
+
+# Backend: exclude heavy data/models from this mono-repo (تبقى موجودة في الريبو الأصلي فقط)
+backend/artifacts/
+backend/backup_training_data/
+backend/catboost_info/
+backend/data/
+backend/models/*.cbm
+backend/db/loaded_real.sql
+
+# Common
+.DS_Store
+*.log
+
