@@ -1,0 +1,821 @@
+{
+  "source": "Google",
+  "centroids": [
+    {
+      "city": "الدمام",
+      "district": "ابن خلدون",
+      "latitude": 26.420592,
+      "longitude": 50.096559
+    },
+    {
+      "city": "الدمام",
+      "district": "الأثير",
+      "latitude": 26.435145,
+      "longitude": 50.058752
+    },
+    {
+      "city": "الدمام",
+      "district": "البادية",
+      "latitude": 26.428308,
+      "longitude": 50.089644
+    },
+    {
+      "city": "الدمام",
+      "district": "البديع",
+      "latitude": 26.451197,
+      "longitude": 50.112524
+    },
+    {
+      "city": "الدمام",
+      "district": "الجلوية",
+      "latitude": 26.435673,
+      "longitude": 50.074453
+    },
+    {
+      "city": "الدمام",
+      "district": "الجوهرة",
+      "latitude": 26.464481,
+      "longitude": 50.08132
+    },
+    {
+      "city": "الدمام",
+      "district": "الحمراء",
+      "latitude": 26.471399,
+      "longitude": 50.092353
+    },
+    {
+      "city": "الدمام",
+      "district": "الخليج",
+      "latitude": 26.445277,
+      "longitude": 50.091987
+    },
+    {
+      "city": "الدمام",
+      "district": "الدواسر",
+      "latitude": 26.44576,
+      "longitude": 50.101285
+    },
+    {
+      "city": "الدمام",
+      "district": "الربيع",
+      "latitude": 26.440386,
+      "longitude": 50.113438
+    },
+    {
+      "city": "الدمام",
+      "district": "السلام",
+      "latitude": 26.451664,
+      "longitude": 50.102353
+    },
+    {
+      "city": "الدمام",
+      "district": "السوق",
+      "latitude": 26.440385,
+      "longitude": 50.102264
+    },
+    {
+      "city": "الدمام",
+      "district": "الشاطئ الشرقي",
+      "latitude": 26.473151,
+      "longitude": 50.128757
+    },
+    {
+      "city": "الدمام",
+      "district": "الشاطئ الغربي",
+      "latitude": 26.474944,
+      "longitude": 50.116993
+    },
+    {
+      "city": "الدمام",
+      "district": "الطبيشي",
+      "latitude": 26.435234,
+      "longitude": 50.122639
+    },
+    {
+      "city": "الدمام",
+      "district": "العدامة",
+      "latitude": 26.432878,
+      "longitude": 50.10457
+    },
+    {
+      "city": "الدمام",
+      "district": "العنود",
+      "latitude": 26.447888,
+      "longitude": 50.070555
+    },
+    {
+      "city": "الدمام",
+      "district": "الغدير",
+      "latitude": 26.48823,
+      "longitude": 50.051864
+    },
+    {
+      "city": "الدمام",
+      "district": "القادسية",
+      "latitude": 26.418225,
+      "longitude": 50.071049
+    },
+    {
+      "city": "الدمام",
+      "district": "القزاز",
+      "latitude": 26.434762,
+      "longitude": 50.092024
+    },
+    {
+      "city": "الدمام",
+      "district": "المنار",
+      "latitude": 26.368932,
+      "longitude": 50.035517
+    },
+    {
+      "city": "الدمام",
+      "district": "النخيل",
+      "latitude": 26.438769,
+      "longitude": 50.088295
+    },
+    {
+      "city": "الدمام",
+      "district": "النهضة",
+      "latitude": 26.377084,
+      "longitude": 50.143618
+    },
+    {
+      "city": "الدمام",
+      "district": "مدينة العمال",
+      "latitude": 26.423089,
+      "longitude": 50.10983
+    },
+    {
+      "city": "الدمام",
+      "district": "الاتصالات",
+      "latitude": 26.413327,
+      "longitude": 50.084627
+    },
+    {
+      "city": "الدمام",
+      "district": "البساتين",
+      "latitude": 26.389616,
+      "longitude": 50.12729
+    },
+    {
+      "city": "الدمام",
+      "district": "الجامعيين",
+      "latitude": 26.395001,
+      "longitude": 50.100202
+    },
+    {
+      "city": "الدمام",
+      "district": "الحسام",
+      "latitude": 26.39233,
+      "longitude": 50.172082
+    },
+    {
+      "city": "الدمام",
+      "district": "الخالدية",
+      "latitude": 26.40327,
+      "longitude": 50.163573
+    },
+    {
+      "city": "الدمام",
+      "district": "الروضة",
+      "latitude": 26.403655,
+      "longitude": 50.076707
+    },
+    {
+      "city": "الدمام",
+      "district": "الريان",
+      "latitude": 26.405394,
+      "longitude": 50.096855
+    },
+    {
+      "city": "الدمام",
+      "district": "السيف",
+      "latitude": 26.384195,
+      "longitude": 50.205359
+    },
+    {
+      "city": "الدمام",
+      "district": "الشفاء",
+      "latitude": 26.407375,
+      "longitude": 50.1179
+    },
+    {
+      "city": "الدمام",
+      "district": "الصدفة",
+      "latitude": 26.374104,
+      "longitude": 50.217237
+    },
+    {
+      "city": "الدمام",
+      "district": "الصفا",
+      "latitude": 26.38969,
+      "longitude": 50.182001
+    },
+    {
+      "city": "الدمام",
+      "district": "الفردوس",
+      "latitude": 26.377437,
+      "longitude": 50.116663
+    },
+    {
+      "city": "الدمام",
+      "district": "الفنار",
+      "latitude": 26.404985,
+      "longitude": 50.195991
+    },
+    {
+      "city": "الدمام",
+      "district": "المريكبات",
+      "latitude": 26.411557,
+      "longitude": 50.103841
+    },
+    {
+      "city": "الدمام",
+      "district": "المزروعية",
+      "latitude": 26.444289,
+      "longitude": 50.121797
+    },
+    {
+      "city": "الدمام",
+      "district": "المنتزه",
+      "latitude": 26.376711,
+      "longitude": 50.12871
+    },
+    {
+      "city": "الدمام",
+      "district": "الناصرية",
+      "latitude": 26.426676,
+      "longitude": 50.119944
+    },
+    {
+      "city": "الدمام",
+      "district": "النسيم",
+      "latitude": 26.445684,
+      "longitude": 50.161518
+    },
+    {
+      "city": "الدمام",
+      "district": "النورس",
+      "latitude": 26.411986,
+      "longitude": 50.184691
+    },
+    {
+      "city": "الدمام",
+      "district": "الواحة",
+      "latitude": 26.382767,
+      "longitude": 50.097581
+    },
+    {
+      "city": "الدمام",
+      "district": "الراكة",
+      "latitude": 26.36878,
+      "longitude": 50.194287
+    },
+    {
+      "city": "الدمام",
+      "district": "أحد",
+      "latitude": 26.413333,
+      "longitude": 50.04074
+    },
+    {
+      "city": "الدمام",
+      "district": "الأمانة",
+      "latitude": 26.385521,
+      "longitude": 49.966681
+    },
+    {
+      "city": "الدمام",
+      "district": "الأمل",
+      "latitude": 26.343966,
+      "longitude": 50.023453
+    },
+    {
+      "city": "الدمام",
+      "district": "الضاحية",
+      "latitude": 26.397493,
+      "longitude": 50.068889
+    },
+    {
+      "city": "الدمام",
+      "district": "الضباب",
+      "latitude": 26.41676,
+      "longitude": 50.059668
+    },
+    {
+      "city": "الدمام",
+      "district": "العروبة",
+      "latitude": 26.346686,
+      "longitude": 49.993031
+    },
+    {
+      "city": "الدمام",
+      "district": "الفرسان",
+      "latitude": 26.356944,
+      "longitude": 49.960959
+    },
+    {
+      "city": "الدمام",
+      "district": "الفيحاء",
+      "latitude": 26.438114,
+      "longitude": 50.038534
+    },
+    {
+      "city": "الدمام",
+      "district": "الفيصلية",
+      "latitude": 26.393687,
+      "longitude": 50.071403
+    },
+    {
+      "city": "الدمام",
+      "district": "النور",
+      "latitude": 26.429089,
+      "longitude": 50.016673
+    },
+    {
+      "city": "الدمام",
+      "district": "بدر",
+      "latitude": 26.404401,
+      "longitude": 50.023227
+    },
+    {
+      "city": "الدمام",
+      "district": "طيبة",
+      "latitude": 26.354668,
+      "longitude": 50.047954
+    },
+    {
+      "city": "الدمام",
+      "district": "البحيرة",
+      "latitude": 26.470388,
+      "longitude": 50.062786
+    },
+    {
+      "city": "الدمام",
+      "district": "الخضرية",
+      "latitude": 26.447952,
+      "longitude": 50.047407
+    },
+    {
+      "city": "الدمام",
+      "district": "الصناعية",
+      "latitude": 26.451694,
+      "longitude": 50.02191
+    },
+    {
+      "city": "الدمام",
+      "district": "المحمدية",
+      "latitude": 26.459617,
+      "longitude": 50.055398
+    },
+    {
+      "city": "الدمام",
+      "district": "الرابية",
+      "latitude": 26.462907,
+      "longitude": 50.03443
+    },
+    {
+      "city": "الدمام",
+      "district": "الأنوار",
+      "latitude": 26.366006,
+      "longitude": 50.012477
+    },
+    {
+      "city": "الدمام",
+      "district": "الحاكمية",
+      "latitude": 26.339839,
+      "longitude": 50.002171
+    },
+    {
+      "city": "الدمام",
+      "district": "الرحاب",
+      "latitude": 26.370355,
+      "longitude": 50.122456
+    },
+    {
+      "city": "الدمام",
+      "district": "الفاخرية",
+      "latitude": 26.353771,
+      "longitude": 50.07742
+    },
+    {
+      "city": "الدمام",
+      "district": "الندى",
+      "latitude": 26.373921,
+      "longitude": 50.078501
+    },
+    {
+      "city": "الدمام",
+      "district": "النزهة",
+      "latitude": 26.398814,
+      "longitude": 50.108216
+    },
+    {
+      "city": "الدمام",
+      "district": "ضاحية الملك فهد",
+      "latitude": 26.413589,
+      "longitude": 50.001125
+    },
+    {
+      "city": "الدمام",
+      "district": "عبدالله فؤاد",
+      "latitude": 26.407375,
+      "longitude": 50.1179
+    },
+    {
+      "city": "الدمام",
+      "district": "غرناطة",
+      "latitude": 26.424704,
+      "longitude": 50.079476
+    },
+    {
+      "city": "الدمام",
+      "district": "القرية الشعبية",
+      "latitude": 26.491937,
+      "longitude": 50.120613
+    },
+    {
+      "city": "الدمام",
+      "district": "العمامرة",
+      "latitude": 26.44337,
+      "longitude": 50.112293
+    },
+    {
+      "city": "الدمام",
+      "district": "الشعلة",
+      "latitude": 26.35119,
+      "longitude": 50.090743
+    },
+    {
+      "city": "الدمام",
+      "district": "المطار",
+      "latitude": 26.380508,
+      "longitude": 49.944355
+    },
+    {
+      "city": "الخبر",
+      "district": "إشبيلية",
+      "latitude": 26.194927,
+      "longitude": 50.215608
+    },
+    {
+      "city": "الخبر",
+      "district": "ابن سينا",
+      "latitude": 26.241669,
+      "longitude": 50.198837
+    },
+    {
+      "city": "الخبر",
+      "district": "الإسكان",
+      "latitude": 26.256598,
+      "longitude": 50.207744
+    },
+    {
+      "city": "الخبر",
+      "district": "الأمواج",
+      "latitude": 26.139912,
+      "longitude": 50.14352
+    },
+    {
+      "city": "الخبر",
+      "district": "الأندلس",
+      "latitude": 26.32102,
+      "longitude": 50.18589
+    },
+    {
+      "city": "الخبر",
+      "district": "البحر",
+      "latitude": 26.357881,
+      "longitude": 50.226128
+    },
+    {
+      "city": "الخبر",
+      "district": "البحيرة",
+      "latitude": 26.189871,
+      "longitude": 50.178971
+    },
+    {
+      "city": "الخبر",
+      "district": "البستان",
+      "latitude": 26.321954,
+      "longitude": 50.212032
+    },
+    {
+      "city": "الخبر",
+      "district": "البندرية",
+      "latitude": 26.307382,
+      "longitude": 50.213584
+    },
+    {
+      "city": "الخبر",
+      "district": "التحلية",
+      "latitude": 26.18751,
+      "longitude": 50.195773
+    },
+    {
+      "city": "الخبر",
+      "district": "التعاون",
+      "latitude": 26.220721,
+      "longitude": 50.184179
+    },
+    {
+      "city": "الخبر",
+      "district": "الثقبة",
+      "latitude": 26.27614,
+      "longitude": 50.193713
+    },
+    {
+      "city": "الخبر",
+      "district": "الجسر",
+      "latitude": 26.210335,
+      "longitude": 50.207989
+    },
+    {
+      "city": "الخبر",
+      "district": "الجوهرة",
+      "latitude": 26.329219,
+      "longitude": 50.197089
+    },
+    {
+      "city": "الخبر",
+      "district": "الحزام الأخضر",
+      "latitude": 26.307899,
+      "longitude": 50.20058
+    },
+    {
+      "city": "الخبر",
+      "district": "الحزام الذهبي",
+      "latitude": 26.317729,
+      "longitude": 50.200866
+    },
+    {
+      "city": "الخبر",
+      "district": "الحمراء",
+      "latitude": 26.226649,
+      "longitude": 50.203491
+    },
+    {
+      "city": "الخبر",
+      "district": "الخبر الجنوبية",
+      "latitude": 26.27472,
+      "longitude": 50.205519
+    },
+    {
+      "city": "الخبر",
+      "district": "الخبر الشمالية",
+      "latitude": 26.291203,
+      "longitude": 50.213649
+    },
+    {
+      "city": "الخبر",
+      "district": "الخزامى",
+      "latitude": 26.208713,
+      "longitude": 50.188967
+    },
+    {
+      "city": "الخبر",
+      "district": "الخور",
+      "latitude": 26.229011,
+      "longitude": 50.214034
+    },
+    {
+      "city": "الخبر",
+      "district": "الراكة الجنوبية",
+      "latitude": 26.352546,
+      "longitude": 50.205622
+    },
+    {
+      "city": "الخبر",
+      "district": "الراكة الشمالية",
+      "latitude": 26.36878,
+      "longitude": 50.194287
+    },
+    {
+      "city": "الخبر",
+      "district": "الرجاء",
+      "latitude": 26.171898,
+      "longitude": 50.129539
+    },
+    {
+      "city": "الخبر",
+      "district": "الروابي",
+      "latitude": 26.331623,
+      "longitude": 50.20989
+    },
+    {
+      "city": "الخبر",
+      "district": "السفن",
+      "latitude": 26.136723,
+      "longitude": 50.160892
+    },
+    {
+      "city": "الخبر",
+      "district": "السلام",
+      "latitude": 26.217191,
+      "longitude": 50.197138
+    },
+    {
+      "city": "الخبر",
+      "district": "السليمانية",
+      "latitude": 26.217191,
+      "longitude": 50.197138
+    },
+    {
+      "city": "الخبر",
+      "district": "الشراع",
+      "latitude": 26.167021,
+      "longitude": 50.145583
+    },
+    {
+      "city": "الخبر",
+      "district": "الصدفة",
+      "latitude": 26.374104,
+      "longitude": 50.217237
+    },
+    {
+      "city": "الخبر",
+      "district": "الصواري",
+      "latitude": 26.188046,
+      "longitude": 50.159337
+    },
+    {
+      "city": "الخبر",
+      "district": "العزيزية",
+      "latitude": 26.105855,
+      "longitude": 50.149826
+    },
+    {
+      "city": "الخبر",
+      "district": "العقربية",
+      "latitude": 26.296872,
+      "longitude": 50.193256
+    },
+    {
+      "city": "الخبر",
+      "district": "العقيق",
+      "latitude": 26.094855,
+      "longitude": 50.144559
+    },
+    {
+      "city": "الخبر",
+      "district": "العليا",
+      "latitude": 26.298007,
+      "longitude": 50.178626
+    },
+    {
+      "city": "الخبر",
+      "district": "الكوثر",
+      "latitude": 26.151557,
+      "longitude": 50.121287
+    },
+    {
+      "city": "الخبر",
+      "district": "الكورنيش",
+      "latitude": 26.325653,
+      "longitude": 50.221853
+    },
+    {
+      "city": "الخبر",
+      "district": "اللؤلؤ",
+      "latitude": 26.123207,
+      "longitude": 50.142416
+    },
+    {
+      "city": "الخبر",
+      "district": "المرجان",
+      "latitude": 26.119543,
+      "longitude": 50.116488
+    },
+    {
+      "city": "الخبر",
+      "district": "المها",
+      "latitude": 26.188735,
+      "longitude": 50.130331
+    },
+    {
+      "city": "الخبر",
+      "district": "الهدا",
+      "latitude": 26.311209,
+      "longitude": 50.182637
+    },
+    {
+      "city": "الخبر",
+      "district": "اليرموك",
+      "latitude": 26.311564,
+      "longitude": 50.220446
+    },
+    {
+      "city": "الخبر",
+      "district": "صناعية الثقبة",
+      "latitude": 26.25419,
+      "longitude": 50.19878
+    },
+    {
+      "city": "الخبر",
+      "district": "صناعية الفوازية",
+      "latitude": 26.245507,
+      "longitude": 50.214019
+    },
+    {
+      "city": "الخبر",
+      "district": "قرطبة",
+      "latitude": 26.344212,
+      "longitude": 50.186123
+    },
+    {
+      "city": "الخبر",
+      "district": "مدينة العمال",
+      "latitude": 26.294925,
+      "longitude": 50.204145
+    },
+    {
+      "city": "الظهران",
+      "district": "أجيال",
+      "latitude": 26.264975,
+      "longitude": 50.072819
+    },
+    {
+      "city": "الظهران",
+      "district": "التهامة",
+      "latitude": 26.353393,
+      "longitude": 50.130467
+    },
+    {
+      "city": "الظهران",
+      "district": "الجامعة",
+      "latitude": 26.344217,
+      "longitude": 50.132736
+    },
+    {
+      "city": "الظهران",
+      "district": "الحرس الوطني",
+      "latitude": 26.363782,
+      "longitude": 50.164281
+    },
+    {
+      "city": "الظهران",
+      "district": "الدانة الجنوبية",
+      "latitude": 26.327659,
+      "longitude": 50.149691
+    },
+    {
+      "city": "الظهران",
+      "district": "الدانة الشمالية",
+      "latitude": 26.337384,
+      "longitude": 50.149276
+    },
+    {
+      "city": "الظهران",
+      "district": "الدوحة الجنوبية",
+      "latitude": 26.317434,
+      "longitude": 50.16361
+    },
+    {
+      "city": "الظهران",
+      "district": "الدوحة الشمالية",
+      "latitude": 26.336069,
+      "longitude": 50.167816
+    },
+    {
+      "city": "الظهران",
+      "district": "الرابية",
+      "latitude": 26.329186,
+      "longitude": 50.130516
+    },
+    {
+      "city": "الظهران",
+      "district": "السلمانية",
+      "latitude": 26.312838,
+      "longitude": 50.177935
+    },
+    {
+      "city": "الظهران",
+      "district": "القشلة",
+      "latitude": 26.365571,
+      "longitude": 50.176405
+    },
+    {
+      "city": "الظهران",
+      "district": "القصور",
+      "latitude": 26.347338,
+      "longitude": 50.150772
+    },
+    {
+      "city": "الظهران",
+      "district": "الوسام",
+      "latitude": 26.31935,
+      "longitude": 50.066506
+    },
+    {
+      "city": "الظهران",
+      "district": "تلال الظهران",
+      "latitude": 26.292331,
+      "longitude": 50.107346
+    },
+    {
+      "city": "الظهران",
+      "district": "هجر",
+      "latitude": 26.369252,
+      "longitude": 50.121298
+    }
+  ]
+}

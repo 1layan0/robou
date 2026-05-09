@@ -1,0 +1,19 @@
+{
+  "description": "إحداثيات يدوية لأحياء لم يجدها Nominatim. (مدينة، حي) → [خط العرض، خط الطول]. يمكن التعديل عند توفر مواقع أدق.",
+  "overrides": [
+    { "city": "الخبر", "district": "الجوهرة", "latitude": 26.329219, "longitude": 50.197089 },
+    { "city": "الخبر", "district": "الحزام الأخضر", "latitude": 26.307899, "longitude": 50.20058 },
+    { "city": "الخبر", "district": "الحزام الذهبي", "latitude": 26.317729, "longitude": 50.200866 },
+    { "city": "الظهران", "district": "الدوحة الشمالية", "latitude": 26.335, "longitude": 50.162 },
+    { "city": "الظهران", "district": "الدوحة الجنوبية", "latitude": 26.324, "longitude": 50.162 },
+    { "city": "الظهران", "district": "السلمانية", "latitude": 26.302, "longitude": 50.138 },
+    { "city": "الظهران", "district": "الحرس الوطني", "latitude": 26.288, "longitude": 50.112 },
+    { "city": "الظهران", "district": "القشلة", "latitude": 26.298, "longitude": 50.122 },
+    { "city": "الظهران", "district": "التهامة", "latitude": 26.292, "longitude": 50.132 },
+    { "city": "الظهران", "district": "القصور", "latitude": 26.328, "longitude": 50.142 },
+    { "city": "الظهران", "district": "أجيال أرامكو", "latitude": 26.312, "longitude": 50.108 },
+    { "city": "الظهران", "district": "جوهرة الدانة", "latitude": 26.332, "longitude": 50.147 },
+    { "city": "الظهران", "district": "شمال الظهران", "latitude": 26.318, "longitude": 50.125 },
+    { "city": "الظهران", "district": "صناعية الظهران", "latitude": 26.272, "longitude": 50.105 }
+  ]
+}

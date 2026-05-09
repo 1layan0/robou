@@ -1,0 +1,48 @@
+{
+  "model_type": "aggregated_residual",
+  "baseline_type": "rolling_median_4q_lagged",
+  "target_is_log": true,
+  "best_min_deals": 10,
+  "feature_cols": [
+    "city_ar",
+    "district_ar",
+    "property_type_ar",
+    "year",
+    "quarter",
+    "log_deals",
+    "iqr_price",
+    "std_price",
+    "prev_year_median_price_per_sqm",
+    "baseline_price_per_sqm",
+    "latitude",
+    "longitude",
+    "dist_school_km",
+    "dist_hospital_km",
+    "dist_mall_km",
+    "count_school_3km",
+    "count_hospital_3km",
+    "count_mall_3km",
+    "growth_pct",
+    "quarter_sin",
+    "quarter_cos",
+    "year_quarter_idx"
+  ],
+  "categorical_cols": [
+    "city_ar",
+    "district_ar",
+    "property_type_ar"
+  ],
+  "target_col": "target_log",
+  "metrics": {
+    "test_r2": 0.645352666832667,
+    "test_mae": 395.90119098368234,
+    "test_mape": 20.77158406941648,
+    "test_smape": 19.42849685748338,
+    "baseline_r2": 0.03932445684153707,
+    "baseline_mae": 588.7150494546602,
+    "baseline_mape": 31.829896458065733,
+    "baseline_smape": 27.7770701788862
+  },
+  "n_train": 1053,
+  "n_test": 264
+}
